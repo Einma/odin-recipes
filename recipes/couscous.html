@@ -9,40 +9,49 @@
             }
             body {
                 font-family: "Lucida Console", "Courier New", monospace;
-                justify-content: left;
-                display: flex;
+                display: block;
                 background-color: beige;
+                text-align: center;
+                margin: 0;
             }
             ol{
                 margin-right: 0;
+            }
+            .list-holder {
+                justify-content: center;
+                display: flex;
             }
         </style>
     </head>
     <body>
 <!--an image of the dish-->
-        <img src="../images/couscous.jpg" alt="Algerian chakchouka">
+        <img src="../images/couscous.jpg" alt="Algerian couscous">
 <!--name of the dish-->
         <h1></h1>
 <!--a short description of the dish-->
         <p></p>
 <!--ingridients requiered to make the dish-->
         <h3>Ingredients</h3>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
+        <div class="list-holder">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
 <!--steps to make the dish-->
         <h3>Steps</h3> 
-        <ol>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ol>
+        <div class="list-holder">
+            <ol>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ol>
+        </div>
         
     </body>
 </html>

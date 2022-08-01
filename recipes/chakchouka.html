@@ -9,9 +9,17 @@
             }
             body {
                 font-family: "Lucida Console", "Courier New", monospace;
-                justify-content: left;
-                display: flex;
+                display: block;
                 background-color: beige;
+                text-align: center;
+                margin: 0;
+            }
+            .list-holder {
+                justify-content: center;
+                display: flex;
+            }
+            li {
+                align-self: center;
             }
         </style>
     </head>
@@ -24,22 +32,29 @@
         <p></p>
 <!--ingridients requiered to make the dish-->
         <h3>Ingredients</h3>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-<!--steps to make the dish-->
+        <div class="list-holder">
+            <ul>
+                <li>Olive oil — 3 tablespoons</li>
+                <li>Paprika — 1 to 2 tablespoons</li>
+                <li>Onion, thinly sliced — 1</li>
+                <li>Garlic, minced — 2 to 3 cloves</li>
+                <li>Tomatoes, peeled, seeded and diced — 3</li>
+                <li>Green and red bell peppers, diced — 2 to 3</li>
+                <li>Water — 1 cup</li>
+                <li>Salt and pepper — to taste</li>
+                <li>Eggs (optional) — 4</li>
+            </ul>
+        </div>
+    <!--steps to make the dish-->
         <h3>Steps</h3> 
-        <ol>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ol>
-        
+        <div class="list-holder">
+            <ol>
+                <li><p>Heat the oil in a deep skillet over medium flame. Stir in the paprika and cook slighly to color the oil, about 10 to 15 seconds. Add the onions and garlic and sauté until the onions are translucent and wilted but not browned, about 5 minutes.</p></li>
+                <li><p>Add the tomatoes and cook for 3 to 4 minutes to reduce down a little bit. Add the peppers, water and salt and pepper and bring to a boil. Reduce the heat to low, cover and simmer for about 10 minutes. Add more water as needed to keep it from drying out.</p></li>
+                <li><p>Using a spoon, form four small indentations in the simmering peppers to hold the eggs. One by one, crack the eggs into a small bowl and slip each from the bowl into an indentation. Cover and simmer for another 10 minutes or so until eggs are cooked through.</p></li>
+                <li><p>Serve with crusty bread, pita or rice.</p></li>
+            </ol>
+        </div>
+        <h3 class="bon-appetit">Bon Appétit</h3>
     </body>
 </html>
