@@ -3,10 +3,74 @@
     <head>
         <meta charset="utf-8">
         <title>Recipes</title>
+        <style>
+            img {
+                height: 300px;
+            }
+            body{
+                font-family: "Lucida Console", "Courier New", monospace;
+                margin: 0;
+                text-align: center;
+                cursor: crosshair;
+            }
+            .head {
+                width: 100%;
+                height: 300px;
+                background-color: transparent;
+                display: flex;
+/*                justify-content: space-evenly;*/
+                justify-items: stretch;
+                align-content: center;
+                margin-left: 0;
+            }
+            .dish-list {
+                justify-content: center;
+                display: flex;
+            }
+            a:link {
+                text-decoration: inherit;
+                color: inherit;
+                cursor: cell;
+            }
+
+            a:visited {
+                text-decoration: inherit;
+                color: inherit;
+                cursor: cell;
+            }
+        </style>
     </head>
-    <body>
+    <body style="margin-top: 0">
+        <div class="head">
+            <img src="images/couscous.jpg">
+            <img src="images/m'hajeb.jpg">
+            <img src="images/rechta.jpg">
+        </div>
+<!--title of the page-->
         <h1>Odin Recipes</h1>
-        <a href="recipes/lasagna.html"><h4>Lasagna</h4></a>
+<!--description-->
+        <p>This website is a learning project in The Odin Project.</p>
+        <p>The website contains a number of delicious Algerian traditional dishes that have been on the menu for centuries</p>
+<!--Links to the food-->
+        <div class="dish-list">
+            <ul>
+                <a href="recipes/chakchouka.html"><li><b><i>Chakchouka</i></b></li></a> <br>
+                <a href="recipes/couscous.html"><li><b><i>Couscous</i></b></li></a>
+        </ul>
+        </div>
+        
+<!--footer-->
+        <h2>THANK YOU</h2>
+        <p>More dishes will be added to this page with time. <br>I'll also change the style of this page and the other pages in the future as I'm learning more and more html and css</p>
+        
+        <p>Visit <a href="https://www.theodinproject.com/">www.theodinproject.com</a> for the web development course</p>
     </body>
     
 </html>
+
+
+
+
+
+
+
