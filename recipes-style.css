@@ -1,0 +1,17 @@
+img {
+    height: 300px;
+    }
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+    display: block;
+    background-color: beige;
+    text-align: center;
+    margin: 0;
+    }
+.list-holder {
+    justify-content: center;
+    display: flex;
+    }
+li {
+    align-self: center;
+}
